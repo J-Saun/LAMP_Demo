@@ -9,6 +9,7 @@
 
 <body>
     <h1>Portfolio</h1>
+    <h2>Welcome</h2>
     <?php
     echo "Hello World!";
     ?>
