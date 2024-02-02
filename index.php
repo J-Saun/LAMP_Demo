@@ -73,28 +73,14 @@
                 </p>
             </div>
         </div>
+        <div>
+            <h3>Contact Me!</h3>
+
+        </div>
+
     </div>
-    <div>
-        <h3>Contact</h3>
-        <form action="process.php" method="post">
-            Name: <input type="text" name="username" required /><br /><br />
-            Email: <input type="email" name="useremail" id="" /><br /><br />
-            Notes:<br>
-            <textarea name="notes" id="" cols="30" rows="10"></textarea><br><br>
-            Colors:<br>
-            <select name="colors" id="">
-                <option value="red">Red</option>
-                <option value="blue">Blue</option>
-                <option value="green">Green</option>
-                <option value="yellow">Yellow</option>
-                <option value="orange">Orange</option>
-                <option value="purple">Purple</option>
-            </select>
-            <button name="signupform" type="submit">Submit</button>
-        </form>
-    </div>
-    <div class="footer bg-dark text-light">
-        <p>SaundersCodes &copy</p>
+    <div class="footer bg-dark text-light p-3 d-flex align-items-center justify-content-between">
+        SaundersCodes &copy
         <a href="#">View on Github</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

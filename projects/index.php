@@ -15,10 +15,6 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
-
-
-
-
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="../about.php">About</a>
@@ -38,8 +34,9 @@
     <h1>Projects Page</h1>
     <ul>
         <li>
-            <a href="/projects/project1/">Project One</a>
+            <a href="project1/">Project One</a>
         </li>
+        <li><a href="webForms/">Web Forms</a></li>
     </ul>
 </body>
 

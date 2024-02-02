@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <a href="../">← Back</a>
     <h1>Project 1</h1>
 </body>
 
