@@ -77,9 +77,19 @@
     <div>
         <h3>Contact</h3>
         <form action="process.php" method="post">
-            Name: <input type="text" name="username" /><br /><br />
+            Name: <input type="text" name="username" required /><br /><br />
             Email: <input type="email" name="useremail" id="" /><br /><br />
-
+            Notes:<br>
+            <textarea name="notes" id="" cols="30" rows="10"></textarea><br><br>
+            Colors:<br>
+            <select name="colors" id="">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="purple">Purple</option>
+            </select>
             <button name="signupform" type="submit">Submit</button>
         </form>
     </div>
