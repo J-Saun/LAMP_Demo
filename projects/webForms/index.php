@@ -13,6 +13,14 @@
     <form action="process.php" method="post">
         Name: <input type="text" name="username" required /><br /><br />
         Email: <input type="email" name="useremail" id="" /><br /><br />
+
+        Select One: <br>
+        <input type="radio" name="coderLevel" value="beginner" required> Beginner <br>
+        <input type="radio" name="coderLevel" value="intermediate" required> Intermediate <br>
+        <input type="radio" name="coderLevel" value="expert" required> Expert <br>
+
+        <br><br>
+
         Notes:<br>
         <textarea name="notes" id="" cols="30" rows="10"></textarea><br><br>
         Colors:<br>

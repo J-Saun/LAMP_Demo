@@ -10,12 +10,25 @@
 <body>
     <h1>Welcome, thanks for joining!</h1>
 
-    <?php
 
-    echo $_POST['username'] . "<br>";
-    echo $_POST['useremail'] . "<br>";
 
-    ?>
+    Name:
+    <?= $_POST['username'] ?>
+    <br>
+    Email:
+    <?= $_POST['useremail'] ?>
+    <br>
+    Notes:
+    <?= $_POST['notes'] ?>
+    <br>
+    Favorite Color:
+    <?= $_POST['colors'] ?>
+    <br>
+    I agree:
+    <?= $_POST['iagree'] ?>
+    Coding Level:
+    <?= $_POST['coderLevel'] ?>
+
 </body>
 
 </html>
