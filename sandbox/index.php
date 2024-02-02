@@ -17,10 +17,10 @@
                     <a class="nav-link active" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">About</a>
+                    <a class="nav-link" href="../about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="projects/">Projects</a>
+                    <a class="nav-link" href="../projects/">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../contact.php">Contact</a>
